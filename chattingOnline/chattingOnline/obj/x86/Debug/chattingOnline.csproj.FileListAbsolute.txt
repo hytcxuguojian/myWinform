@@ -1,0 +1,8 @@
+d:\chattingOnline\chattingOnline\bin\Debug\chattingOnline.exe
+d:\chattingOnline\chattingOnline\bin\Debug\chattingOnline.pdb
+d:\chattingOnline\chattingOnline\obj\x86\Debug\chattingOnline.Form1.resources
+d:\chattingOnline\chattingOnline\obj\x86\Debug\chattingOnline.Properties.Resources.resources
+d:\chattingOnline\chattingOnline\obj\x86\Debug\chattingOnline.csproj.GenerateResource.Cache
+d:\chattingOnline\chattingOnline\obj\x86\Debug\chattingOnline.exe
+d:\chattingOnline\chattingOnline\obj\x86\Debug\chattingOnline.pdb
+D:\chattingOnline\chattingOnline\obj\x86\Debug\chattingOnline.csprojResolveAssemblyReference.cache
