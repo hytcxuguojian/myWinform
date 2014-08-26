@@ -1,0 +1,16 @@
+d:\ChatingTool\ChatingTool\bin\Debug\ChatingTool.exe
+d:\ChatingTool\ChatingTool\bin\Debug\ChatingTool.pdb
+d:\ChatingTool\ChatingTool\obj\x86\Debug\ChatingTool.mainform.resources
+d:\ChatingTool\ChatingTool\obj\x86\Debug\ChatingTool.Properties.Resources.resources
+d:\ChatingTool\ChatingTool\obj\x86\Debug\ChatingTool.UCFriend.resources
+d:\ChatingTool\ChatingTool\obj\x86\Debug\ChatingTool.csproj.GenerateResource.Cache
+d:\ChatingTool\ChatingTool\obj\x86\Debug\ChatingTool.exe
+d:\ChatingTool\ChatingTool\obj\x86\Debug\ChatingTool.pdb
+C:\Users\Student\Desktop\ChatingTool\ChatingTool\obj\x86\Debug\ChatingTool.exe
+C:\Users\Student\Desktop\ChatingTool\ChatingTool\obj\x86\Debug\ChatingTool.pdb
+C:\Users\Student\Desktop\ChatingTool\ChatingTool\bin\Debug\ChatingTool.exe
+C:\Users\Student\Desktop\ChatingTool\ChatingTool\bin\Debug\ChatingTool.pdb
+C:\Users\Student\Desktop\ChatingTool\ChatingTool\obj\x86\Debug\ChatingTool.mainform.resources
+C:\Users\Student\Desktop\ChatingTool\ChatingTool\obj\x86\Debug\ChatingTool.Properties.Resources.resources
+C:\Users\Student\Desktop\ChatingTool\ChatingTool\obj\x86\Debug\ChatingTool.UCFriend.resources
+C:\Users\Student\Desktop\ChatingTool\ChatingTool\obj\x86\Debug\ChatingTool.csproj.GenerateResource.Cache

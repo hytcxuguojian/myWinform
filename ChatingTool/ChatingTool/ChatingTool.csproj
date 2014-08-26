@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{395EBF20-9663-4D44-8BEA-E6D9191CA18E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChatingTool</RootNamespace>
+    <AssemblyName>ChatingTool</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Friend.cs" />
+    <Compile Include="mainform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainform.Designer.cs">
+      <DependentUpon>mainform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UCFriend.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCFriend.Designer.cs">
+      <DependentUpon>UCFriend.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="mainform.resx">
+      <DependentUpon>mainform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UCFriend.resx">
+      <DependentUpon>UCFriend.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="headimages\0.png" />
+    <Content Include="headimages\1.png" />
+    <Content Include="headimages\10.png" />
+    <Content Include="headimages\2.png" />
+    <Content Include="headimages\3.png" />
+    <Content Include="headimages\4.png" />
+    <Content Include="headimages\5.png" />
+    <Content Include="headimages\6.png" />
+    <Content Include="headimages\7.png" />
+    <Content Include="headimages\8.png" />
+    <Content Include="headimages\9.png" />
+    <Content Include="headimages\Chogath_Square_0.png" />
+    <Content Include="headimages\Corki_Square_0.png" />
+    <Content Include="headimages\Darius_Square_0.png" />
+    <Content Include="headimages\Diana_Square_0.png" />
+    <Content Include="headimages\Draven_Square_0.png" />
+    <Content Include="headimages\DrMundo_Square_0.png" />
+    <Content Include="headimages\Evelynn_Square_0.png" />
+    <Content Include="headimages\Ezreal_Square_0.png" />
+    <Content Include="headimages\Fiddlesticks_Square_0.png" />
+    <Content Include="headimages\Fiora_Square_0.png" />
+    <Content Include="headimages\Fizz_square_0.png" />
+    <Content Include="headimages\Galio_Square_0.png" />
+    <Content Include="headimages\Gangplank_Square_0.png" />
+    <Content Include="headimages\Garen_Square_0.png" />
+    <Content Include="headimages\Gragas_Square_0.png" />
+    <Content Include="headimages\Graves_Square_0.png" />
+    <Content Include="headimages\Hecarim_Square_0.png" />
+    <Content Include="headimages\Heimerdinger_Square_0.png" />
+    <Content Include="headimages\Irelia_Square_0.png" />
+    <Content Include="headimages\Janna_Square_0.png" />
+    <Content Include="headimages\JarvanIV_Square_0.png" />
+    <Content Include="headimages\Jax_Square_0.png" />
+    <Content Include="headimages\Jayce_Square_0.png" />
+    <Content Include="headimages\Karma_Square_0.png" />
+    <Content Include="headimages\Karthus_Square_0.png" />
+    <Content Include="headimages\Kassadin_Square_0.png" />
+    <Content Include="headimages\Katarina_Square_0.png" />
+    <Content Include="headimages\Kayle_Square_0.png" />
+    <Content Include="headimages\Kennen_Square_0.png" />
+    <Content Include="headimages\KogMaw_Square_0.png" />
+    <Content Include="headimages\Leblanc_Square_0.png" />
+    <Content Include="headimages\LeeSin_Square_0.png" />
+    <Content Include="headimages\Leona_Square_0.png" />
+    <Content Include="headimages\Lulu_Square_0.png" />
+    <Content Include="headimages\Lux_Square_0.png" />
+    <Content Include="headimages\Malphite_Square_0.png" />
+    <Content Include="headimages\Malzahar_Square_0.png" />
+    <Content Include="headimages\Maokai_Square_0.png" />
+    <Content Include="headimages\MasterYi_Square_0.png" />
+    <Content Include="headimages\MissFortune_Square_0.png" />
+    <Content Include="headimages\MonkeyKing_Square_0.png" />
+    <Content Include="headimages\Mordekaiser_Square_0.png" />
+    <Content Include="headimages\Morgana_Square_0.png" />
+    <Content Include="headimages\Nasus_Square_0.png" />
+    <Content Include="headimages\Nautilus_Square_0.png" />
+    <Content Include="headimages\Nidalee_Square_0.png" />
+    <Content Include="headimages\Nocturne_Square_0.png" />
+    <Content Include="headimages\Nunu_Square_0.png" />
+    <Content Include="headimages\Olaf_Square_0.png" />
+    <Content Include="headimages\Orianna_Square_0.png" />
+    <Content Include="headimages\Pantheon_Square_0.png" />
+    <Content Include="headimages\Poppy_Square_0.png" />
+    <Content Include="headimages\Rammus_Square_0.png" />
+    <Content Include="headimages\Renekton_Square_0.png" />
+    <Content Include="headimages\Rengar_Square_0.png" />
+    <Content Include="headimages\Riven_Square_0.png" />
+    <Content Include="headimages\Rumble_Square_0.png" />
+    <Content Include="headimages\Ryze_Square_0.png" />
+    <Content Include="headimages\Sejuani_Square_0.png" />
+    <Content Include="headimages\Shaco_Square_0.png" />
+    <Content Include="headimages\Shen_Square_0.png" />
+    <Content Include="headimages\Shyvana_Square_0.png" />
+    <Content Include="headimages\Singed_Square_0.png" />
+    <Content Include="headimages\Sion_Square_0.png" />
+    <Content Include="headimages\Sivir_Square_0.png" />
+    <Content Include="headimages\Skarner_Square_0.png" />
+    <Content Include="headimages\Sona_Square_0.png" />
+    <Content Include="headimages\Soraka_Square_0.png" />
+    <Content Include="headimages\Swain_Square_0.png" />
+    <Content Include="headimages\Syndra_Square_0.png" />
+    <Content Include="headimages\Talon_Square_0.png" />
+    <Content Include="headimages\Taric_Square_0.png" />
+    <Content Include="headimages\Teemo_Square_0.png" />
+    <Content Include="headimages\Tristana_Square_0.png" />
+    <Content Include="headimages\Trundle_Square_0.png" />
+    <Content Include="headimages\Tryndamere_Square_0.png" />
+    <Content Include="headimages\TwistedFate_Square_0.png" />
+    <Content Include="headimages\Twitch_Square_0.png" />
+    <Content Include="headimages\Udyr_Square_0.png" />
+    <Content Include="headimages\Urgot_Square_0.png" />
+    <Content Include="headimages\Varus_Square_0.png" />
+    <Content Include="headimages\Vayne_Square_0.png" />
+    <Content Include="headimages\Veigar_Square_0.png" />
+    <Content Include="headimages\Viktor_Square_0.png" />
+    <Content Include="headimages\Vladimir_Square_0.png" />
+    <Content Include="headimages\Volibear_Square_0.png" />
+    <Content Include="headimages\Warwick_Square_0.png" />
+    <Content Include="headimages\Xerath_Square_0.png" />
+    <Content Include="headimages\XinZhao_Square_0.png" />
+    <Content Include="headimages\Yorick_Square_0.png" />
+    <Content Include="headimages\Ziggs_Square_0.png" />
+    <Content Include="headimages\Zilean_Square_0.png" />
+    <Content Include="headimages\Zyra_Square_0.png" />
+    <Content Include="images\100.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
