@@ -18,10 +18,18 @@ namespace ChatingTool
         private mainform frm;
 
         public mainform Frm
-        {
+        { 
             get { return frm; }
             set { frm = value; }
         }
+
+        //private ChatForm chatform;
+
+        //public ChatForm Chatform
+        //{
+        //    get { return chatform; }
+        //    set { chatform = value; }
+        //}
 
         private Friend curFriend;
 
@@ -41,5 +49,7 @@ namespace ChatingTool
         {
             
         }
+
+        public event EventHandler myDBclick;
     }
 }

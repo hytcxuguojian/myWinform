@@ -35,6 +35,7 @@
             this.userShuoshuo = new System.Windows.Forms.Label();
             this.friendList = new System.Windows.Forms.Panel();
             this.ilHeadImages = new System.Windows.Forms.ImageList(this.components);
+            this.btn_set = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.userHeadImage)).BeginInit();
             this.SuspendLayout();
             // 
@@ -189,19 +190,30 @@
             this.ilHeadImages.Images.SetKeyName(103, "Zilean_Square_0.png");
             this.ilHeadImages.Images.SetKeyName(104, "Zyra_Square_0.png");
             // 
+            // btn_set
+            // 
+            this.btn_set.Location = new System.Drawing.Point(190, 17);
+            this.btn_set.Name = "btn_set";
+            this.btn_set.Size = new System.Drawing.Size(56, 21);
+            this.btn_set.TabIndex = 3;
+            this.btn_set.Text = "设置";
+            this.btn_set.UseVisualStyleBackColor = true;
+            this.btn_set.Click += new System.EventHandler(this.btn_set_Click);
+            // 
             // mainform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(258, 506);
+            this.Controls.Add(this.btn_set);
             this.Controls.Add(this.friendList);
             this.Controls.Add(this.userShuoshuo);
             this.Controls.Add(this.userNick);
             this.Controls.Add(this.userHeadImage);
             this.Name = "mainform";
             this.Text = "局域聊天器";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.mainform_FormClosed);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.mainform_FormClosing);
             this.Load += new System.EventHandler(this.mainform_Load);
             ((System.ComponentModel.ISupportInitialize)(this.userHeadImage)).EndInit();
             this.ResumeLayout(false);
@@ -216,6 +228,7 @@
         private System.Windows.Forms.Label userShuoshuo;
         private System.Windows.Forms.Panel friendList;
         public System.Windows.Forms.ImageList ilHeadImages;
+        private System.Windows.Forms.Button btn_set;
     }
 }
 

@@ -12,5 +12,7 @@ namespace ChatingTool
         public int HeadImageIndex { get; set; }
         public string shuoshuo { get; set; }
         public IPAddress IP { get; set; }
+        public bool istalking { get; set; }
+        public ChatForm chatform { get; set; }
     }
 }
